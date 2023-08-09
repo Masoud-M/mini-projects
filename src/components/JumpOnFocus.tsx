@@ -11,10 +11,10 @@ const App = () => {
 
   // for keep tracking of inputs and changing the focus
   const inputRefs = useRef({
-    firstInput: [],
-    selectInput: [],
-    secondInput: [],
-    thirdInput: [],
+    firstInput: [] as string[],
+    selectInput: [] as string[],
+    secondInput: [] as string[],
+    thirdInput: [] as string[],
   });
 
   const handleChange = (e: React.BaseSyntheticEvent) => {
